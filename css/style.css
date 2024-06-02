@@ -180,7 +180,7 @@ img{
 .contact__icon{
     display: block;
     position: fixed;
-    right: 1rem;
+    right: 1.5rem;
     bottom: 2.5rem;
     background: var(--color3);
     border: none;

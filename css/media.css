@@ -1,0 +1,30 @@
+@import url(./style.css);
+
+
+/* IMAGE GALLERY RESPONSIVE CSS */
+@media screen and (max-width: 800px) {
+    .portfolio__gallery {
+      flex: 50%;
+      max-width: 100%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .portfolio__gallery {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+/* CONTACT FORM RESPONSIVE CSS */
+@media screen and (max-width: 400px) {
+  .form__popup {
+    width: 25rem;
+  }
+  .form__container input{
+    height: 2.5rem;
+  }
+  .form__container textarea{
+    height: 8rem;
+}
+}

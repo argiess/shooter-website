@@ -16,6 +16,23 @@
     }
 }
 
+/* ABOUT RESPONSIVE CSS */
+@media screen and (max-width: 1000px) {
+  .about{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about{
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+  .about p{
+    font-size: 1.2rem;
+  }
+}
+
 /* CONTACT FORM RESPONSIVE CSS */
 @media screen and (max-width: 400px) {
   .form__popup {

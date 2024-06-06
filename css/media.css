@@ -43,5 +43,18 @@
   }
   .form__container textarea{
     height: 8rem;
+  }
 }
+
+/* FOOTER RESPONSIVE CS */
+@media screen and (max-width: 600px) {
+  .footer{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .footer .socials{
+    margin-bottom: 1.5rem;
+  }
 }

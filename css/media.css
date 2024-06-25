@@ -1,19 +1,43 @@
 @import url(./style.css);
 
 
+/* HERO SECTION RESPONSIVE CSS */
+@media (max-width: 450px) {
+  .hero__section .center h1{
+    font-size: calc(1em + 5.5vw);
+  }
+}
+
 /* IMAGE GALLERY RESPONSIVE CSS */
+@media screen and (max-width: 900px) {
+  .portfolio__gallery {
+    max-width: 100%;
+    padding: 1.5rem 10rem;
+  }
+}
+
 @media screen and (max-width: 800px) {
     .portfolio__gallery {
-      flex: 50%;
       max-width: 100%;
+      padding: 1.5rem 5rem;
     }
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .portfolio__gallery {
-      flex: 100%;
       max-width: 100%;
+      padding: 1.5rem 2.5rem;
     }
+}
+
+@media (max-width: 500px) {
+  .h2{
+    font-size: calc(1em + 5.5vw)
+  }
+  .portfolio__gallery {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* ABOUT RESPONSIVE CSS */
@@ -25,7 +49,6 @@
 
 @media screen and (max-width: 500px) {
   .about{
-    width: 100%;
     padding: 4rem 2rem;
   }
   .about p{
@@ -36,7 +59,7 @@
 /* CONTACT FORM RESPONSIVE CSS */
 @media screen and (max-width: 400px) {
   .form__popup {
-    width: 25rem;
+    width: 28rem;
   }
   .form__container input{
     height: 2.5rem;

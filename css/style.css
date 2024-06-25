@@ -85,24 +85,34 @@ img{
 }
 
 .hero__section .center p{
-    font-size: calc(1em + .5vw);
+    /* font-size: calc(1em + .5vw); */
+    font-size: 1.5rem;
 }
 .hero__section .center h1{
-    font-size: calc(1em + 3.5vw);
+    /* font-size: calc(1em + 3.5vw); */
+    font-size: 5rem;
+    color: var(--color2);
+    opacity: .8;
 }
 
 /* IMAGE GALLERY CSS */
+.h2{
+    font-family: var(--font1);
+    font-size: 5rem;
+    text-align: center;
+    /* color: var(--color2); */
+    padding: 2.5rem 1.5rem 1.5rem;
+}
 .portfolio__gallery{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    flex-wrap: wrap;
     gap: 1.5rem;
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 15rem;
 }
 
 .image__div{
-    flex: 25%;
-    max-width: 25%;
+    width: 100%;
     padding: 0 .5px;
 }
 
@@ -117,24 +127,15 @@ img{
 /* ABOUT CSS */
 .about{
     text-align: center;
-    padding: 4rem;
-    width: 50%;
+    padding: 5rem;
+    width: 60%;
     margin: auto;
-}
-
-.about h2{
-    font-family: var(--font3);
-    color: var(--color2);
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-    opacity: .8;
 }
 
 .about p{
     text-align: left;
-    font-family: var(--font3);
-    font-weight: 500;
-    opacity: .5;
+    font-family: var(--font2);
+    opacity: .4;
 }
 
 /* CONTACT FORM CSS */
@@ -146,7 +147,7 @@ img{
     right: 2.5rem;
     padding: 1.5rem 2.5rem;
     border-radius: 5px;
-    border: 1.5px solid var(--color1);
+    /* border: 1.5px solid var(--color1); */
     background: var(--color3);
     box-shadow: 0 0 5px var(--color1);
     z-index: 100;
